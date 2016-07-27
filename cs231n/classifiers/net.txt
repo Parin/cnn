@@ -1,0 +1,38 @@
+conv	1	32
+bn	1
+relu	1
+conv	2	32
+bn	2
+relu	2
+pool
+conv	3	64
+bn	3
+relu	3
+conv	4	64
+bn	4
+relu	4
+pool
+conv	5	128
+bn	5
+relu	5
+conv	6	128
+bn	6
+relu	6
+pool
+conv	7	256
+bn	7
+relu	7
+conv	8	256
+bn	8
+relu	8
+pool
+conv	9	512
+bn	9
+relu	9
+conv	10	512
+bn	10
+relu	10
+pool
+fc	11
+fc	12
+fc	13
